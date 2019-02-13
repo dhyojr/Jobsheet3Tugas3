@@ -1,0 +1,40 @@
+
+<h1>
+  <p style="text-align:center">
+      INI Tugas Pertama Biodata
+  </p>
+  </h1>
+<h1>
+  <p style="text-align:center">
+      {{currentDate|date:"fullDate"}}
+  </p>
+</h1>
+
+<h1>
+  <table>
+    <tbody>
+      <tr *ngFor="let y of list">
+        <td>{{y.x}}</td>
+      </tr>
+    </tbody>
+  </table>
+</h1>
+
+<div>
+    <h2>
+    <table border=1>
+      <thead>
+        <th>NO</th>
+        <th>Hobby</th>
+        <th>Keterangan</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let r of Ryuus">
+          <td>{{r.no}}</td>
+          <td>{{r.hobby}}</td>
+          <td>{{r.keterangan}}</td>
+        </tr>
+      </tbody>
+    </table>
+    </h2>>
+</div>
